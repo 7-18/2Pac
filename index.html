@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--version 5-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- La configuración de idioma (Hebreo, Chino) , caracteres especiales (tildes, simbolos @&, la ñ)  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Navegadores - Internet explorer - Edge Viejo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ayuda que en el viewport se ajuste el contenido desde un inicio (más no es total responsivo - dispositivos etc) -->
+    <title>2Pac</title>
+
+    <link
+      rel="shortcut icon"
+      href="images/Logo/png-clipart-2pac-2pac.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- CSS - Interno -->
+
+    <!-- <style>
+
+body {
+
+    background-color: #d595e9f6;
+
+}
+
+</style> -->
+  </head>
+
+  <body>
+    <!-- Semantica HTML 
+        La semántica en el HTML y HTML5 
+        se refiere al significado o información extra que otorgan los
+         elementos o etiquetas del lenguaje -->
+
+    <header>
+      <!-- Contenedor -->
+      <!-- Css en Línea
+     <div style="background-color: royalblue ; ">
+    
+    -->
+      <div class="logo">
+        <img
+          class="logoimagen"
+          src="images/Logo/165-1654094_2pac-music-fan-fan-all-eyez-on-me.png"
+          alt="logo"
+        />
+      </div>
+
+      <nav>
+        <!--  -->
+        <ul class="barradenavegacion">
+          <li class="navegacion">
+            <a target="_blank" href="segundapagina.html"> BIO </a>
+          </li>
+          <li class="navegacion"><a href="#section1">INFO</a></li>
+          <li class="navegacion"><a href="#section2"> MUSICA </a></li>
+          <li class="navegacion"><a href="#section3">VIDEOS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article>
+        <div class="parallax">
+          <div class="cajaparallax tituloparallax">
+            <h2>All Eyez on Me</h2>
+
+            <!-- Contenedor en linea -->
+            <span class="parrafoparallax">
+              <a href="">¡Escúchalo ahora!</a>
+            </span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="section1">
+      <article>
+        <div class="informacion">
+          <p>
+            <span class="titulopac">¿Quién es 2Pac?</span>
+
+            <!-- Salto de linea -->
+            <!-- Etiqueta vacia - No necesitan de cierta información como texto o contenido  -->
+            <br />
+            <br />
+            <br />
+
+            Tupac Amaru Shakur (nacido como Lesane Parish Crooks; Nueva York, 16
+            de junio de 1971 - Las Vegas, 13 de septiembre de 1996) también
+            conocido como 2Pac, Makaveli o simplemente Tupac, fue un rapero,
+            actor, poeta y activista estadounidense.​ Es considerado por muchos
+            como uno de los raperos más importantes de todos los tiempos, y más
+            influyentes de la historia del rap.
+
+            <br />
+            <br />
+
+            <span class="titulopac2"
+              >Uno de los mejores raperos de la historia</span
+            >
+
+            <br />
+            <br />
+
+            El 7 de septiembre de 1996, Shakur recibió cuatro disparos de un
+            asaltante desconocido en un drive-by en Las Vegas; murió seis días
+            después y el tirador nunca fue capturado. Desde su muerte han sido
+            lanzados cinco álbumes póstumos, todos ellos certificados como disco
+            de platino. Shakur es uno de los artistas musicales con mayores
+            ventas de todos los tiempos, habiendo vendido más de 75 millones de
+            discos en todo el mundo. En 2002 fue incluido en el Salón de la Fama
+            del Hip-Hop.​ En 2017 fue incluido en el Salón de la Fama del Rock
+            and Roll durante su primer año de elegibilidad. Además, la revista
+            Rolling Stone incluyó a Shakur en su lista de los 100 mejores
+            artistas de todos los tiempos, ocupando el puesto 86.
+          </p>
+
+          <img
+            class="pac"
+            src="images/2Pac/680ead8d8b36e3123d10054fdc28800c.jpeg"
+            alt="tupacshakur"
+          />
+        </div>
+      </article>
+    </section>
+    <section id="section2" class="contentmusic">
+      <h2>MÚSICA</h2>
+      <div class="container">
+        <!--Primera carta-->
+        <div class="card">
+          <img onclick="nombreAlbum1 ()" src="images/Album/2pacalypse-now.jpg" alt="2pacalypse-now-1" />
+          <h4>2Pacalypse Now</h4>
+          <p>12 de noviembre, 1991</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!--Segunda carta-->
+        <div class="card">
+          <img onclick="nombreAlbum2 ()"
+            src="images/Album/Strictly 4 My N.I.G.G.A.Z..jpg"
+            alt="for-my-niggaz"
+          />
+          <h4>4 My N.I.G.G.A.Z.</h4>
+          <p>16 de febrero, 1993</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!--Tercera carta-->
+        <div class="card">
+          <img onclick="nombreAlbum3 ()" src="images/Album/Me Against the World.jpg" alt="bornborn" />
+          <h4>Me Against the World</h4>
+          <p>14 de marzo, 1995</p>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+
+      <div class="container">
+        <!--Cuarta carta-->
+        <div class="card">
+          <img onclick="nombreAlbum4 ()" src="images/Album/All Eyez on Me.jpg" alt="all-eyez" />
+          <h4>All Eyez on Me</h4>
+          <p>13 de febrero, 1996</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!--Quinta carta-->
+        <div class="card">
+          <img onclick="nombreAlbum5 ()" src="images/Album/makaveli.jpg" alt="makaveli-christ" />
+          <h4>The Don Killuminati</h4>
+          <p>5 de noviembre, 1996</p>
+          <a href="#">Leer más</a>
+        </div>
+
+        <!--Sexta carta-->
+        <div class="card">
+          <img onclick="nombreAlbum6 ()" src="images/Album/Still Down.jpg" alt="still-down" />
+          <h4>R U Still Down?</h4>
+          <p>25 de noviembre, 1997</p>
+          <a href="#">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3">
+      <div class="videos">
+        <div class="imagensection">
+          <img src="images/Logo/thuglife.png" alt="logo2" />
+        </div>
+
+        <div class="iframeprincipal">
+          <!--<video controls src=""></video>-->
+
+          <!--Permite colocar un elemento HTML dentro de otro objeto HTML principal-->
+          <iframe
+            fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="800px"
+            height="350px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22OtmphHxSsIQ%22%7D&amp;video_id=OtmphHxSsIQ"
+            data-id="0"
+          ></iframe>
+        </div>
+        <div class="iframes">
+          <iframe
+            fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="500px"
+            height="300px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%22eXvBjCO19QY%22%7D&amp;video_id=eXvBjCO19QY"
+            data-id="0"
+          ></iframe>
+
+          <iframe
+            fullscreen; encrypted-media"
+            frameborder="0"
+            allowfullscreen=""
+            title="YouTube video player"
+            width="500px"
+            height="300px"
+            src="https://studiosolsolr-a.akamaihd.net/iframe_proxy_player_letras_endpoint.html?host=https%3A%2F%2Fwww.letras.com&amp;api_player=Iframe&amp;player_vars=%7B%22autoplay%22%3A1%2C%22egm%22%3A0%2C%22iv_load_policy%22%3A3%2C%22showinfo%22%3A0%2C%22rel%22%3A0%2C%22enablejsapi%22%3A1%2C%22wmode%22%3A%22transparent%22%2C%22controls%22%3A0%2C%22id%22%3A%22player__pl_obj%22%2C%22type%22%3A%22Iframe%22%2C%22videoId%22%3A%225tWsy2x3w0U%22%7D&amp;video_id=5tWsy2x3w0U"
+            data-id="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!--Pie de pagina-->
+      <div class="final">
+        <p>© 2021 Interscope/Death Row Records</p>
+      </div>
+    </footer>
+   <!-- <script src="JS.js/ejercicio1.js"></script>
+    <script src="JS.js/ejercicio2.js"></script>
+    <script src="JS.js/ejercicio3.js"></script>
+    <script src="JS.js/ejercicio4.js"></script>
+    <script src="JS.js/ejercicio5.js"></script>
+    <script src="JS.js/ejercicio6.js"></script>
+    <script src="JS.js/ejercicio7.js"></script>
+    <script src="JS.js/ejercicio8.js"></script> --> 
+
+<script src="JS.js/ejercicio10.js"></script>
+
+  </body>
+</html>
