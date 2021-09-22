@@ -1,2 +1,2 @@
 <<<<<<< HEAD
-# projectArtista
+# proyectoArtista
